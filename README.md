@@ -7,6 +7,7 @@ function format (num) {
 }
 ```
 
+
 >GetQueryString
 ``` typescript
 class Utilities {
@@ -25,9 +26,10 @@ class Utilities {
 }
 ```
 
+
 >转化为数字的简单方式
 ``` javascript
-// + statement
+//使用   + statement
 + '123'  // ==> 123
 + 'ABC'  // ==> NaN
 + new Date() // ==> 431231231231(毫秒数)
