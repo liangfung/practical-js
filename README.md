@@ -7,7 +7,6 @@ function format (num) {
 }
 ```
 
-
 >GetQueryString
 ``` typescript
 class Utilities {
@@ -26,7 +25,6 @@ class Utilities {
 }
 ```
 
-
 >转化为数字的简单方式
 ``` javascript
 //使用   + statement
@@ -35,4 +33,4 @@ class Utilities {
 + new Date() // ==> 431231231231(毫秒数)
 // 思考下面例子
 'foo' + + 'bar' // ==> 'fooNaN'
-```             
+```
