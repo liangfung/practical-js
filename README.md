@@ -1,12 +1,12 @@
 # practical-js
 
-
 >数字转为千分位，两位小数
 ``` javascript
 function format (num) {
     return (num.toFixed(2) + '').replace(/\d{1,3}(?=(\d{3})+(\.\d*)?$)/g, '$&,');
 }
 ```
+
 >GetQueryString
 ``` typescript
 class Utilities {
@@ -24,3 +24,13 @@ class Utilities {
     }
 }
 ```
+
+>转化为数字的简单方式
+``` javascript
+// + statement
++ '123'  // ==> 123
++ 'ABC'  // ==> NaN
++ new Date() // ==> 431231231231(毫秒数)
+// 思考下面例子
+'foo' + + 'bar' // ==> 'fooNaN'
+```             
